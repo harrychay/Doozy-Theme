@@ -1,3 +1,5 @@
+# First open your drive for wherever save the project & follow the intruction down below.
+
 # doozy theme
 
 ## Build Setup
