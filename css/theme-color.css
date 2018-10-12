@@ -1,0 +1,441 @@
+/*------------------------------------------------------------------ 
+	
+	Template Name:	Doozy - Personal Resume/CV/Portfolio Html Template
+    Template URI: http://angel-theme.com/Doozy
+    Description: Personal Resume/CV/Portfolio Html Template
+    Author: Angel Theme
+    Author URI: http://angel-theme.com/
+    Version: 1.0
+	
+    -------------------------------------------------------------------*/
+
+    /*deafult color*/
+    #pageloader,
+    .custom-btn,
+    .custom-btn:before,
+    .custom-btn:hover:before,
+    .menu-toggle:before,
+    .menu-toggle:after,
+    .menu-toggle span,
+    .service-icon:before,
+    .service-icon:after,
+    .resume-content:before,
+    .resume-content:after,
+    .resume-content.animated .last-dots,
+    .client-name:after,
+    .slick-dots li.slick-active button,
+    .pagination li.active a,
+    .pagination li a:hover,
+    .search-btn,
+    .post-num,
+    .tags a:hover,
+    .blog-details .img-wrap .title-tag {
+    	background-color: #239EB8;
+    }
+
+    .custom-btn:hover,
+    .section-title h2 span,
+    .logo span,
+    .cd-words-wrapper b,
+    .navbar li.active a,
+    .navbar li a:hover,
+    .social-link li a:hover,
+    .service-icon span,
+    .progress-icon,
+    .filter-btn.active,
+    .filter-btn:hover,
+    .featured-name,
+    .single-testiminial .icon-quote,
+    .blog-title:hover,
+    .slick-arrow:hover,
+    .meta li:last-child,
+    .single-blog .discribe a,
+    .single-blog .discribe a:hover,
+    .contact-info li .info-title>span,
+    .copyright,
+    .bread-crumb li:last-child,
+    .bread-crumb li a:hover,
+    .pagination li a,
+    .single-category a:hover,
+    .recent-blog-detail a:hover,
+    .reply {
+    	color: #239EB8;
+    }
+
+    .circle-chart__circle {
+    	stroke: #239EB8;
+    }
+
+    .service-icon {
+    	background-color: rgba(35, 158, 184, .1);
+    }
+
+    .highlight-detail {
+        border-left: 3px solid #239EB8;
+    }
+
+    .comment-form .custom-btn:hover,
+    .comment-form .custom-btn:focus,
+    .comment-form .custom-btn:visited,
+    .comment-form .custom-btn:active {
+        box-shadow: 0 5px 25px 0 #239EB8;
+    }
+
+    /*color theme 1*/
+
+    .theme-color-1 #pageloader,
+    .theme-color-1 .custom-btn,
+    .theme-color-1 .custom-btn:before,
+    .theme-color-1 .custom-btn:hover:before,
+    .theme-color-1 .menu-toggle:before,
+    .theme-color-1 .menu-toggle:after,
+    .theme-color-1 .menu-toggle span,
+    .theme-color-1 .service-icon:before,
+    .theme-color-1 .service-icon:after,
+    .theme-color-1 .resume-content:before,
+    .theme-color-1 .resume-content:after,
+    .theme-color-1 .resume-content.animated .last-dots,
+    .theme-color-1 .client-name:after,
+    .theme-color-1 .slick-dots li.slick-active button,
+    .theme-color-1 .pagination li.active a,
+    .theme-color-1 .pagination li a:hover,
+    .theme-color-1 .search-btn,
+    .theme-color-1 .post-num,
+    .theme-color-1 .tags a:hover,
+    .theme-color-1 .blog-details .img-wrap .title-tag  {
+    	background-color: #00C851;
+    }
+
+    .theme-color-1 .custom-btn:hover,
+    .theme-color-1 .section-title h2 span,
+    .theme-color-1 .logo span,
+    .theme-color-1 .cd-words-wrapper b,
+    .theme-color-1 .navbar li.active a,
+    .theme-color-1 .navbar li a:hover,
+    .theme-color-1 .social-link li a:hover,
+    .theme-color-1 .service-icon span,
+    .theme-color-1 .progress-icon,
+    .theme-color-1 .filter-btn.active,
+    .theme-color-1 .filter-btn:hover,
+    .theme-color-1 .featured-name,
+    .theme-color-1 .single-testiminial .icon-quote,
+    .theme-color-1 .blog-title:hover,
+    .theme-color-1 .slick-arrow:hover,
+    .theme-color-1 .meta li:last-child,
+    .theme-color-1 .single-blog .discribe a,
+    .theme-color-1 .single-blog .discribe a:hover,
+    .theme-color-1 .contact-info li .info-title>span,
+    .theme-color-1 .copyright,
+    .theme-color-1 .bread-crumb li:last-child,
+    .theme-color-1 .bread-crumb li a:hover,
+    .theme-color-1 .pagination li a,
+    .theme-color-1 .single-category a:hover,
+    .theme-color-1 .recent-blog-detail a:hover,
+    .theme-color-1 .reply {
+    	color: #00C851;
+    }
+
+    .theme-color-1 .circle-chart__circle {
+    	stroke: #00C851;
+    }
+
+    .theme-color-1 .service-icon {
+    	background-color: rgba(0, 200, 81, .1);
+    }
+    .theme-color-1 .highlight-detail {
+        border-left: 3px solid #00C851;
+    }
+
+    .theme-color-1 .comment-form .custom-btn:hover,
+    .theme-color-1 .comment-form .custom-btn:focus,
+    .theme-color-1 .comment-form .custom-btn:visited,
+    .theme-color-1 .comment-form .custom-btn:active {
+        box-shadow: 0 5px 25px 0 #00C851;
+    }
+    /*color theme 2*/
+
+    .theme-color-2 #pageloader,
+    .theme-color-2 .custom-btn,
+    .theme-color-2 .custom-btn:before,
+    .theme-color-2 .custom-btn:hover:before,
+    .theme-color-2 .menu-toggle:before,
+    .theme-color-2 .menu-toggle:after,
+    .theme-color-2 .menu-toggle span,
+    .theme-color-2 .service-icon:before,
+    .theme-color-2 .service-icon:after,
+    .theme-color-2 .resume-content:before,
+    .theme-color-2 .resume-content:after,
+    .theme-color-2 .resume-content.animated .last-dots,
+    .theme-color-2 .client-name:after,
+    .theme-color-2 .slick-dots li.slick-active button,
+    .theme-color-2 .pagination li.active a,
+    .theme-color-2 .pagination li a:hover,
+    .theme-color-2 .search-btn,
+    .theme-color-2 .post-num,
+    .theme-color-2 .tags a:hover,
+    .theme-color-2 .blog-details .img-wrap .title-tag {
+    	background-color: #ffbb33;
+    }
+
+    .theme-color-2 .custom-btn:hover,
+    .theme-color-2 .section-title h2 span,
+    .theme-color-2 .logo span,
+    .theme-color-2 .cd-words-wrapper b,
+    .theme-color-2 .navbar li.active a,
+    .theme-color-2 .navbar li a:hover,
+    .theme-color-2 .social-link li a:hover,
+    .theme-color-2 .service-icon span,
+    .theme-color-2 .progress-icon,
+    .theme-color-2 .filter-btn.active,
+    .theme-color-2 .filter-btn:hover,
+    .theme-color-2 .featured-name,
+    .theme-color-2 .single-testiminial .icon-quote,
+    .theme-color-2 .blog-title:hover,
+    .theme-color-2 .slick-arrow:hover,
+    .theme-color-2 .meta li:last-child,
+    .theme-color-2 .single-blog .discribe a,
+    .theme-color-2 .single-blog .discribe a:hover,
+    .theme-color-2 .contact-info li .info-title>span,
+    .theme-color-2 .copyright,
+    .theme-color-2 .bread-crumb li:last-child,
+    .theme-color-2 .bread-crumb li a:hover,
+    .theme-color-2 .pagination li a,
+    .theme-color-2 .single-category a:hover,
+    .theme-color-2 .recent-blog-detail a:hover,
+    .theme-color-2 .reply {
+    	color: #ffbb33;
+    }
+
+    .theme-color-2 .circle-chart__circle {
+    	stroke: #FFBB33;
+    }
+
+    .theme-color-2 .service-icon {
+    	background-color: rgba(255, 187, 51, .1);
+    }
+
+    .theme-color-2 .highlight-detail {
+        border-left: 3px solid #FFBB33;
+    }
+
+    .theme-color-2 .comment-form .custom-btn:hover,
+    .theme-color-2 .comment-form .custom-btn:focus,
+    .theme-color-2 .comment-form .custom-btn:visited,
+    .theme-color-2 .comment-form .custom-btn:active {
+        box-shadow: 0 5px 25px 0 #FFBB33;
+    }
+
+    /*color theme 3*/
+    .theme-color-3 #pageloader,
+    .theme-color-3 .custom-btn,
+    .theme-color-3 .custom-btn:before,
+    .theme-color-3 .custom-btn:hover:before,
+    .theme-color-3 .menu-toggle:before,
+    .theme-color-3 .menu-toggle:after,
+    .theme-color-3 .menu-toggle span,
+    .theme-color-3 .service-icon:before,
+    .theme-color-3 .service-icon:after,
+    .theme-color-3 .resume-content:before,
+    .theme-color-3 .resume-content:after,
+    .theme-color-3 .resume-content.animated .last-dots,
+    .theme-color-3 .client-name:after,
+    .theme-color-3 .slick-dots li.slick-active button,
+    .theme-color-3 .pagination li.active a,
+    .theme-color-3 .pagination li a:hover,
+    .theme-color-3 .search-btn,
+    .theme-color-3 .post-num,
+    .theme-color-3 .tags a:hover,
+    .theme-color-3 .blog-details .img-wrap .title-tag {
+    	background-color: #ff4444;
+    }
+
+    .theme-color-3 .custom-btn:hover,
+    .theme-color-3 .section-title h2 span,
+    .theme-color-3 .logo span,
+    .theme-color-3 .cd-words-wrapper b,
+    .theme-color-3 .navbar li.active a,
+    .theme-color-3 .navbar li a:hover,
+    .theme-color-3 .social-link li a:hover,
+    .theme-color-3 .service-icon span,
+    .theme-color-3 .progress-icon,
+    .theme-color-3 .filter-btn.active,
+    .theme-color-3 .filter-btn:hover,
+    .theme-color-3 .featured-name,
+    .theme-color-3 .single-testiminial .icon-quote,
+    .theme-color-3 .blog-title:hover,
+    .theme-color-3 .slick-arrow:hover,
+    .theme-color-3 .meta li:last-child,
+    .theme-color-3 .single-blog .discribe a,
+    .theme-color-3 .single-blog .discribe a:hover,
+    .theme-color-3 .contact-info li .info-title>span,
+    .theme-color-3 .copyright,
+    .theme-color-3 .bread-crumb li:last-child,
+    .theme-color-3 .bread-crumb li a:hover,
+    .theme-color-3 .pagination li a,
+    .theme-color-3 .single-category a:hover,
+    .theme-color-3 .recent-blog-detail a:hover,
+    .theme-color-3 .reply {
+    	color: #ff4444;
+    }
+
+    .theme-color-3 .circle-chart__circle {
+    	stroke: #ff4444;
+    }
+
+    .theme-color-3 .service-icon {
+    	background-color: rgba(255, 68, 68, .1);
+    }
+
+    .theme-color-3 .highlight-detail {
+        border-left: 3px solid #ff4444;
+    }
+
+    .theme-color-3 .comment-form .custom-btn:hover,
+    .theme-color-3 .comment-form .custom-btn:focus,
+    .theme-color-3 .comment-form .custom-btn:visited,
+    .theme-color-3 .comment-form .custom-btn:active {
+        box-shadow: 0 5px 25px 0 #ff4444;
+    }
+    /*color theme 4*/
+
+    .theme-color-4 #pageloader,
+    .theme-color-4 .custom-btn,
+    .theme-color-4 .custom-btn:before,
+    .theme-color-4 .custom-btn:hover:before,
+    .theme-color-4 .menu-toggle:before,
+    .theme-color-4 .menu-toggle:after,
+    .theme-color-4 .menu-toggle span,
+    .theme-color-4 .service-icon:before,
+    .theme-color-4 .service-icon:after,
+    .theme-color-4 .resume-content:before,
+    .theme-color-4 .resume-content:after,
+    .theme-color-4 .resume-content.animated .last-dots,
+    .theme-color-4 .client-name:after,
+    .theme-color-4 .slick-dots li.slick-active button,
+    .theme-color-4 .pagination li.active a,
+    .theme-color-4 .pagination li a:hover,
+    .theme-color-4 .search-btn,
+    .theme-color-4 .post-num,
+    .theme-color-4 .tags a:hover,
+    .theme-color-4 .blog-details .img-wrap .title-tag {
+    	background-color: #11C582;
+    }
+
+    .theme-color-4 .custom-btn:hover,
+    .theme-color-4 .section-title h2 span,
+    .theme-color-4 .logo span,
+    .theme-color-4 .cd-words-wrapper b,
+    .theme-color-4 .navbar li.active a,
+    .theme-color-4 .navbar li a:hover,
+    .theme-color-4 .social-link li a:hover,
+    .theme-color-4 .service-icon span,
+    .theme-color-4 .progress-icon,
+    .theme-color-4 .filter-btn.active,
+    .theme-color-4 .filter-btn:hover,
+    .theme-color-4 .featured-name,
+    .theme-color-4 .single-testiminial .icon-quote,
+    .theme-color-4 .blog-title:hover,
+    .theme-color-4 .slick-arrow:hover,
+    .theme-color-4 .meta li:last-child,
+    .theme-color-4 .single-blog .discribe a,
+    .theme-color-4 .single-blog .discribe a:hover,
+    .theme-color-4 .contact-info li .info-title>span,
+    .theme-color-4 .copyright,
+    .theme-color-4 .bread-crumb li:last-child,
+    .theme-color-4 .bread-crumb li a:hover,
+    .theme-color-4 .pagination li a,
+    .theme-color-4 .single-category a:hover,
+    .theme-color-4 .recent-blog-detail a:hover,
+    .theme-color-4 .reply  {
+    	color: #11C582;
+    }
+
+    .theme-color-4 .circle-chart__circle {
+    	stroke: #11C582;
+    }
+
+    .theme-color-4 .service-icon {
+    	background-color: rgba(17, 197, 130, .1);
+    }
+
+    .theme-color-4 .highlight-detail {
+        border-left: 3px solid #11C582;
+    }
+
+    .theme-color-4 .comment-form .custom-btn:hover,
+    .theme-color-4 .comment-form .custom-btn:focus,
+    .theme-color-4 .comment-form .custom-btn:visited,
+    .theme-color-4 .comment-form .custom-btn:active {
+        box-shadow: 0 5px 25px 0 #11C582;
+    }
+    /*color theme 5*/
+    .theme-color-5 #pageloader,
+    .theme-color-5 .custom-btn,
+    .theme-color-5 .custom-btn:before,
+    .theme-color-5 .custom-btn:hover:before,
+    .theme-color-5 .menu-toggle:before,
+    .theme-color-5 .menu-toggle:after,
+    .theme-color-5 .menu-toggle span,
+    .theme-color-5 .service-icon:before,
+    .theme-color-5 .service-icon:after,
+    .theme-color-5 .resume-content:before,
+    .theme-color-5 .resume-content:after,
+    .theme-color-5 .resume-content.animated .last-dots,
+    .theme-color-5 .client-name:after,
+    .theme-color-5 .slick-dots li.slick-active button,
+    .theme-color-5 .pagination li.active a,
+    .theme-color-5 .pagination li a:hover,
+    .theme-color-5 .search-btn,
+    .theme-color-5 .post-num,
+    .theme-color-5 .tags a:hover,
+    .theme-color-5 .blog-details .img-wrap .title-tag  {
+    	background-color: #069EEA;
+    }
+
+    .theme-color-5 .custom-btn:hover,
+    .theme-color-5 .section-title h2 span,
+    .theme-color-5 .logo span,
+    .theme-color-5 .cd-words-wrapper b,
+    .theme-color-5 .navbar li.active a,
+    .theme-color-5 .navbar li a:hover,
+    .theme-color-5 .social-link li a:hover,
+    .theme-color-5 .service-icon span,
+    .theme-color-5 .progress-icon,
+    .theme-color-5 .filter-btn.active,
+    .theme-color-5 .filter-btn:hover,
+    .theme-color-5 .featured-name,
+    .theme-color-5 .single-testiminial .icon-quote,
+    .theme-color-5 .blog-title:hover,
+    .theme-color-5 .slick-arrow:hover,
+    .theme-color-5 .meta li:last-child,
+    .theme-color-5 .single-blog .discribe a,
+    .theme-color-5 .single-blog .discribe a:hover,
+    .theme-color-5 .contact-info li .info-title>span,
+    .theme-color-5 .copyright,
+    .theme-color-5 .bread-crumb li:last-child,
+    .theme-color-5 .bread-crumb li a:hover,
+    .theme-color-5 .pagination li a,
+    .theme-color-5 .single-category a:hover,
+    .theme-color-5 .recent-blog-detail a:hover,
+    .theme-color-5 .reply {
+    	color: #069EEA;
+    }
+
+    .theme-color-5 .circle-chart__circle {
+    	stroke: #069EEA;
+    }
+
+    .theme-color-5 .service-icon {
+    	background-color: rgba(6, 158, 234, .1);
+    }
+
+    .theme-color-5 .highlight-detail {
+        border-left: 3px solid #069EEA;
+    }
+    
+    .theme-color-5 .comment-form .custom-btn:hover,
+    .theme-color-5 .comment-form .custom-btn:focus,
+    .theme-color-5 .comment-form .custom-btn:visited,
+    .theme-color-5 .comment-form .custom-btn:active {
+        box-shadow: 0 5px 25px 0 #069EEA;
+    }

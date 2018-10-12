@@ -1,0 +1,291 @@
+/*------------------------------------------------------------------ 
+    
+    Template Name:  Doozy - Personal Resume/CV/Portfolio Html Template
+    Template URI: http://angel-theme.com/Doozy
+    Description: Personal Resume/CV/Portfolio Html Template
+    Author: Angel Theme
+    Author URI: http://angel-theme.com/
+    Version: 1.0
+    
+    -------------------------------------------------------------------*/
+
+    @media screen and (min-width: 768px) {
+        h1 {
+            font-size: 46px;
+            line-height: 50px;
+        }
+
+        .scroll-down {
+            bottom: 50px;
+        }
+
+        .hero-intro-block {
+            min-width: 768px;
+        }
+
+        .single-progressbar {
+            width: 25%;
+        }
+
+        .progress-icon { 
+            margin: 0 0 17px;
+        }
+
+        .percentage {
+            font-size: 20px;
+        }
+
+        .skill-name {
+            font-size: 15px;
+        }
+
+        .blogs-grid {
+            margin: 0;
+        }
+    }
+
+    @media screen and (min-width: 1024px) {
+        .progress-title {
+            font-size: 20px;
+        }
+
+        .shape-1,
+        .shape-2 {
+            opacity: .2;
+        }
+
+        .input-group {
+            margin: 0 0 15px;
+        }
+
+        .contact-form {
+            padding: 20px;
+            flex: 0 0 60%;
+            width: 60%;
+        }
+
+        .contact-info-wrap {
+            background-color: #fff;
+            flex: 0 0 40%;
+            width: 40%;
+            padding: 20px;
+        }
+
+        .menu-toggle {
+            display: none;
+        }
+
+        .main-nav.nav-open {
+            background-color: transparent;
+        }
+
+        .navbar {
+            position: static !important;
+            height: auto;
+            background-color: transparent;
+            border: none;
+            padding: .5rem 1rem;
+            box-shadow: none;
+            display: block !important;
+        }
+
+        .navbar li {
+            margin: 0 0 0 20px;
+            display: inline-block;
+            vertical-align: top;
+            width: auto;
+        }
+
+        .navbar li a {
+            display: inline-block;
+            vertical-align: top;
+            color: #fff;
+        }
+
+        .resume-content {
+            margin: 0;
+        }
+
+        .single-progressbar {
+            max-width: 180px;
+        }
+
+        .percentage {
+            font-size: 22px;
+        }
+
+        .skill-name {
+            font-size: 16px;
+        }
+    }
+
+    @media screen and (min-width: 1200px) {
+
+        .col-xlg-3 {
+            flex: 0 0 25%;
+            max-width: 25%;
+        }
+
+        .col-xlg-4 {
+            flex: 0 0 33.33%;
+            max-width: 33.33%;
+        }
+
+        .col-xlg-8 {
+            flex: 0 0 66.66%;
+            max-width: 66.66%;
+        }
+
+        .col-xlg-9 {
+            flex: 0 0 75%;
+            max-width: 75%;
+        }
+
+        .m-hide {
+            display: block;
+        }
+
+        .section {
+            float: left;
+            width: 100%;
+            padding: 50px 0;
+        }
+
+        .section-title {
+            margin: 0 auto 40px;
+        }
+
+        .main-nav {
+            padding: 25px 0;
+        }
+
+        .navbar li {
+            margin: 0 0 0 20px;
+        }
+
+        .single-progressbar {
+            margin: 0;
+            max-width: 184px;
+        }
+        .progress-icon { 
+            margin: 0 0 24px;
+        }
+        .progress-icon {  
+            font-size: 50px;
+        }
+        .percentage {
+            font-size: 23px;
+        }
+
+        .skill-name {
+            font-size: 17px;
+        }
+
+        .filter-btn {
+            background: transparent;
+            padding: 0 15px;
+        }
+
+        .progress-title {
+            font-size: 24px;
+        }
+    }
+
+
+    @media screen and (min-width: 1369px) {
+
+        .container {
+            max-width: 1337px;
+            padding: 0 15px;
+        }
+
+        .col-xlg-3 {
+            flex: 0 0 25%;
+            width: 25%;
+        }
+
+        .input-group {
+            margin: 0 0 20px;
+        }
+
+        .contact-form {
+            padding: 30px;
+            flex: 0 0 67%;
+            width: 67%;
+        }
+
+        .contact-info-wrap {
+            background-color: #fff;
+            flex: 0 0 33%;
+            width: 33%;
+            padding: 30px;
+        }
+
+        .section {
+            float: left;
+            width: 100%;
+            padding: 70px 0;
+        }
+        .section.about-section {
+            padding: 70px 0 100px;
+        }
+
+        .section-title {
+            margin: 0 auto 50px;
+        }
+
+        .main-nav {
+            padding: 35px 0;
+            `
+        }
+
+        .navbar li {
+            margin: 0 0 0 30px;
+        }
+
+        .profile-image-wrap {
+            max-width: 374px;
+        }
+
+        .percentage {
+            font-size: 24px;
+        }
+        .progress-icon {  
+            font-size: 60px;
+        }
+        
+        .progress-title {
+            margin: 0 0 30px;
+        }
+
+        .counter {
+            font-size: 30px;
+        }
+
+        .skill-name {
+            font-size: 18px;
+        }
+
+        .filter-btn {
+            background: transparent;
+            padding: 0 21px;
+        }
+    }
+
+    @media screen and (min-width: 1600px) {
+
+        .shape-1,
+        .shape-2 {
+            opacity: 1;
+        }
+
+        .shape-1 {
+            right: 120px;
+            top: 110px;
+        }
+
+        .shape-2 {
+            top: 196px;
+            left: 92px;
+        }
+    }
